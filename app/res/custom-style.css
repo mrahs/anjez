@@ -1,0 +1,189 @@
+/*******************************************************************************
+ Copyright (c) 2014 - Anas H. Sulaiman (ahs.pw)
+
+  This file is part of Anjez.
+  Anjez is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ ******************************************************************************/
+
+#menu,
+.text-field,
+.table-view .column-header,
+.table-view .show-hide-columns-button,
+.choice-box,
+.combo-box,
+.button,
+.toggle-button,
+.check-box .box {
+	-fx-border-color: gray;
+	-fx-background-radius: 0;
+}
+
+#menu,
+.choice-box,
+.combo-box,
+.button,
+.toggle-button,
+.text-field,
+.table-view {
+	-fx-background-color: white;
+}
+
+.list-view {
+    -fx-background-color: gray;
+}
+
+#menu:hover,
+#menu:focused,
+#button-play-stop:hover,
+#button-play-stop:focused,
+.choice-box:hover,
+.choice-box:focused,
+.combo-box:hover,
+.combo-box:focused,
+.button:hover,
+.button:focused,
+.toggle-button:hover,
+.toggle-button:focused,
+.check-box:hover .box {
+	-fx-background-color: derive(white, -10%);
+}
+
+#menu:armed,
+#button-play-stop:armed,
+.choice-box:armed,
+.combo-box:armed,
+.button:armed,
+.toggle-button:armed,
+.check-box:armed .box {
+	-fx-background-color: derive(white, -20%);	
+}
+
+.table-view .column-header,
+.table-view .show-hide-columns-button {
+	-fx-background-color: derive(white, -5%);
+}
+
+.text-field {
+	-fx-highlight-fill: derive(white, -75%);
+}
+
+#menu,
+.table-view .filler,
+.table-view .column-header:last-visible {
+	-fx-border-width: 0 0 1 0;
+}
+
+#filter-box,
+.table-view .column-header {
+	-fx-border-width: 0 1 1 0;
+}
+
+.table-view .show-hide-columns-button {
+	-fx-border-width: 0 0 1 1;
+}
+
+.table-view {
+	-fx-border-width: 0;
+	-fx-padding: 0;
+}
+
+#menu,
+.text-field,
+.table-view {
+	-fx-border-radius: 0;
+}
+
+.choice-box,
+.combo-box,
+.button,
+.toggle-button,
+.check-box .box {
+	-fx-border-radius: 2;
+}
+
+#menu-icon,
+.table-view .column-header .text {
+	-fx-effect: dropshadow(gaussian, black, 2, 0,0,0);
+}
+
+.text-field:focused,
+.table-view:focused {
+	-fx-effect: innershadow(gaussian, black, 5, 0,0,0);
+}
+
+.menu-item:focused,
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:selected,
+.combo-box-popup  > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:hover,
+.list-view:focused > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:selected,
+.table-view:focused .table-row-cell:filled:selected {
+	-fx-background-color: derive(white, -50%);
+}
+
+
+.table-view .table-row-cell:filled:selected {
+	-fx-background-color: derive(white, -25%);
+}
+
+.table-view .table-row-cell:filled:selected .table-cell:hover {
+    -fx-border-color: derive(white, -24%);
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.table-view:focused .table-row-cell:filled:selected {
+	-fx-table-cell-border-color: white;
+}
+
+#button-play-stop,
+.check-box .box {
+	-fx-background-color: transparent;
+}
+
+.toggle-button.left-pill {
+    -fx-border-radius: 2 0 0 2;
+}
+
+.toggle-button.center-pill {
+    -fx-border-radius: 0;
+}
+
+.toggle-button.right-pill {
+    -fx-border-radius: 0 2 2 0;
+}
+
+.toggle-button:selected{
+    -fx-effect: innershadow(gaussian, black, 5, 0,0,0);
+}
+
+.tooltip {
+    -fx-background-color: rgba(230,230,230,.7);
+    -fx-background-radius: 4px;
+    -fx-text-fill: black;
+    -fx-background-insets: 0;
+    -fx-padding: 0.833em;
+    -fx-effect: null;
+    -fx-font-size: 1em;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: derive(white, -10%);
+    -fx-background-insets: 0;
+}
+
+.scroll-bar:vertical:focused {
+    -fx-background-color: derive(white, -5%);
+}
+
+.scroll-bar:vertical > .thumb {
+    -fx-background-color: derive(white, -20%);
+}
+
+.scroll-bar:vertical > .thumb:hover {
+    -fx-background-color: derive(white, -25%);
+}
+
+.scroll-bar:vertical > .thumb:pressed {
+    -fx-background-color: derive(white, -30%);
+}

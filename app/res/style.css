@@ -1,0 +1,79 @@
+/*******************************************************************************
+ Copyright (c) 2014 - Anas H. Sulaiman (ahs.pw)
+
+  This file is part of Anjez.
+  Anjez is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ ******************************************************************************/
+
+
+.notify-today,
+.notify-too-late{
+    -fx-background-radius: 2;
+	-fx-text-fill: white;
+	-fx-padding: 1 3 1 3;
+}
+
+.notify-today {
+	-fx-background-color: derive(white, -75%);
+}
+
+.notify-too-late {
+    -fx-background-color: #990000;
+}
+
+.drag {
+    -fx-effect: innershadow(gaussian, black, 10, 0,0,0);
+}
+
+#status-bar.unsaved-state {
+	-fx-background-color: derive(white, -20%);
+}
+
+#status-bar {
+	-fx-border-width: 1 0 0 0;
+	-fx-border-color: gray;
+	-fx-padding: 2 0 2 0;
+}
+
+.root.font-en {
+	-fx-font-family: Ubuntu, sans-serif;
+}
+
+.root.font-ar {
+	-fx-font-family: "Droid Arabic Kufi", sans-serif;
+	-fx-font-size: 10;
+}
+
+#tour-title .label {
+    -fx-effect: dropshadow(gaussian,black, .5,0,0, 0);
+    -fx-font: 18px "System";
+    -fx-alignment: CENTER;
+}
+
+#tour-title {
+    -fx-border-width: 0;
+}
+
+#tour-title {
+    -fx-background-color: white;
+}
+
+#tour-title:hover,
+#tour-title:focused,
+#tour-title:armed{
+    -fx-background-color: inherit;
+}
+
+#tour-title:hover .open-button .arrow,
+#tour-title:focused .open-button  .arrow,
+#tour-title:armed .open-button  .arrow{
+    -fx-effect: dropshadow(gaussian, black, .1, 0,0,0);
+}
+
+#table-place-holder-title {
+    -fx-font-family: serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+}

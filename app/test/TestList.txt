@@ -1,0 +1,34 @@
+IO
+    New
+    Open
+    Reload
+    Save
+    Save As
+DropBox
+    Connect
+    Open
+    Reload
+    Save
+    No internet
+Tasks
+    Add
+    Delete
+    Edit
+    Copy
+    Track
+Undo/Redo
+Help
+    Files
+    Tour
+    Sheet
+    About
+Internet
+    Update
+    Feedback
+Filter
+    normal
+    OR
+    Project, Context
+Other
+    add unknown pref
+Passing file as CL argument

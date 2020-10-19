@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Exec=./Anjez.sh
+Icon=./anjez-icon.ico
+GenericName=ToDo Manager
+GenericName[ar]=مدير مهمات
+Name=Anjez
+Name[ar]=أنجز
+Terminal=false
+Type=Application
+Categories=Utility;Office;Productivity;
